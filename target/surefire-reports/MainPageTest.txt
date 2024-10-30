@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: MainPageTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 37.71 s <<< FAILURE! -- in MainPageTest
-MainPageTest.switchSauceTabs -- Time elapsed: 7.530 s <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 30.89 s <<< FAILURE! -- in MainPageTest
+MainPageTest.switchFillingTabs -- Time elapsed: 4.333 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
 	at org.junit.Assert.assertTrue(Assert.java:53)
-	at praktikum.Pages.MainPage.checkSauceTabIsEnable(MainPage.java:60)
-	at MainPageTest.switchSauceTabs(MainPageTest.java:21)
+	at praktikum.Pages.MainPage.checkFillingTabIsEnable(MainPage.java:75)
+	at MainPageTest.switchFillingTabs(MainPageTest.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -39,7 +39,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-MainPageTest.switchBunTabs -- Time elapsed: 5.461 s <<< FAILURE!
+MainPageTest.switchBunTabs -- Time elapsed: 4.048 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
