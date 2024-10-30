@@ -40,15 +40,15 @@ public class RandomUser {
     }
 
     public static RandomUser newRandomUser() {
-        return new  RandomUser("Diplom", "Diplom@ya." + RandomStringUtils.randomAlphabetic(3), "123456");
+        return new  RandomUser("Yoda2000", "Yodam@yandex.ru" + RandomStringUtils.randomAlphabetic(3), "123456");
     }
 
     public static RandomUser newRandomUserPasswordSevenCharacters() {
-        return new  RandomUser("Diplom" + RandomStringUtils.randomAlphabetic(3), "Diplom@ya." + RandomStringUtils.randomAlphabetic(3), "1234567");
+        return new  RandomUser("Yoda2000" + RandomStringUtils.randomAlphabetic(3), "Yodam@yandex.ru" + RandomStringUtils.randomAlphabetic(3), "1234567");
     }
 
     public static RandomUser newRandomUserInvalidPasswordFiveCharacters() {
-        return new  RandomUser("Diplom" + RandomStringUtils.randomAlphabetic(3), "Diplom@ya." + RandomStringUtils.randomAlphabetic(3), "12345");
+        return new  RandomUser("Yoda2000" + RandomStringUtils.randomAlphabetic(3), "Yodam@yandex.ru" + RandomStringUtils.randomAlphabetic(3), "12345");
     }
 
 }
